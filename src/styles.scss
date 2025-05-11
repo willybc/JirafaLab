@@ -1,1 +1,598 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+	--color-primary: #6f4a38;
+	--color-secondary: #ffbe00;
+}
+
+body {
+	/* background: #131316; */
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+
+	overflow-x: hidden;
+}
+
+/* Estilos para pantallas grandes */
+h1 {
+	font-size: 3.75rem; /* 60px en rem */
+	line-height: 4.08rem; /* 65.28px en rem */
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 2.5rem; /* 40px en rem */
+	line-height: 2.72rem; /* 43.52px en rem */
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.875rem; /* 30px en rem */
+	line-height: 2.048rem; /* 32.64px en rem */
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 1.25rem; /* 20px en rem */
+	line-height: 1.376rem; /* 21.76px en rem */
+	font-weight: 300;
+}
+
+h5 {
+	font-size: 0.9375rem; /* 15px en rem */
+	line-height: 1.024rem; /* 16.32px en rem */
+	font-weight: 300;
+}
+
+.container-header,
+.container-presentacion,
+.container-scientific,
+.container-text,
+.container-servicios-oneTime,
+.container-servicios-continuos,
+.container-contacto {
+	padding-left: 8rem;
+	padding-right: 8rem;
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	min-height: 80vh;
+}
+
+section h2 {
+	font-weight: 600;
+	font-size: 36px;
+	padding-bottom: 4rem;
+}
+
+.hidden {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+
+.show {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+
+.container-presentacion {
+	background: #ffbe00;
+}
+
+.presentacion {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.presentacion h1 {
+	font-weight: 700;
+	font-size: 3.65rem;
+}
+
+.presentacion h2 {
+	font-weight: 300;
+	font-size: 2.5rem;
+	line-height: 2.72rem;
+}
+
+.container-text {
+	background-color: #ffbe00;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-text h1 {
+	max-width: 1200px;
+	font-weight: 700;
+	font-size: 3.75rem;
+	line-height: 4.08rem;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+}
+
+.cards i {
+	color: #ffbe00;
+	font-size: 3rem;
+}
+
+.cards-2,
+.cards-3 {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+}
+
+.cards-2 i {
+	color: var(--color-secondary);
+	font-size: 3rem;
+}
+
+.cards-3 i {
+	color: #000000;
+	font-size: 3rem;
+}
+
+.primary-text-card {
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.secondary-text-card {
+	font-size: 1.125rem;
+	text-align: center;
+}
+
+.container-cards {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.container-cards .row {
+	width: 100%;
+	row-gap: 2.5rem;
+}
+
+.container-servicios-continuos {
+	background: #ffbe00;
+}
+
+.container-white-servicios-continuos,
+.container-white-servicios-contacto {
+	background: #ffff;
+	height: 60vh;
+}
+
+.container-white-servicios-continuos h2 {
+	padding: 3rem 4rem;
+}
+
+.container-cards-continuos {
+	margin-top: 1rem;
+}
+
+.container-white-servicios-contacto {
+	padding: 5rem;
+}
+
+.card-contacto {
+	display: flex;
+	justify-content: center;
+}
+
+.card-contacto .row {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (prefers-reduced-motion) {
+	.hidden {
+		transition: none;
+	}
+}
+
+.logos {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.logo {
+	z-index: 5;
+	padding-bottom: 1rem;
+}
+
+.logo:nth-child(2) {
+	transition-delay: 200ms;
+}
+
+.logo:nth-child(3) {
+	transition-delay: 400ms;
+}
+
+.logo:nth-child(4) {
+	transition-delay: 600ms;
+}
+
+.logo:nth-child(5) {
+	transition-delay: 800ms;
+}
+
+.logo:nth-child(6) {
+	transition-delay: 1000ms;
+}
+
+.container-scientific {
+	justify-content: space-around;
+}
+
+.box-scientific {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.title-scientific h1 {
+	font-weight: 700;
+}
+
+.img-scientific {
+	display: flex;
+	justify-content: center;
+
+	/* background: #FFBE00; */
+	border-radius: 25px;
+	margin-bottom: 1rem;
+}
+
+.img-scientific img {
+	background: #ffbe00;
+	border-radius: 25px;
+	height: 125px;
+	padding: 2rem;
+}
+
+.content-scientific {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+}
+
+.content-scientific h3 {
+	font-weight: 500;
+	margin-bottom: 0.8rem;
+}
+
+.content-scientific h4 {
+	font-weight: 500;
+}
+
+.container-servicios-oneTime {
+	justify-content: space-around;
+}
+
+.container-scientific,
+.container-servicios-oneTime,
+.container-servicios-continuos,
+.container-contacto {
+	height: 100vh;
+}
+
+.box-scientific,
+.box-contacto {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.box-servicios {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.title-scientific-new {
+	position: absolute;
+	padding: 4rem 8rem;
+}
+
+.title-box {
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	padding: 0rem 4rem;
+}
+
+.container-cards-continuos {
+	height: 100%;
+	align-items: center;
+}
+
+.card-contacto {
+	height: 100%;
+	padding: 4rem 8rem;
+}
+
+.contacto-content {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	gap: 2rem;
+}
+
+.info-contacto {
+	padding: 1rem 0;
+}
+
+.info-contacto h3 {
+	font-weight: 500;
+}
+
+.info-contacto h4 {
+	font-weight: 500;
+}
+
+.box-scientific,
+.box-contacto,
+.box-servicios {
+	position: relative;
+}
+
+.figure img {
+	height: 150px;
+	width: 150px;
+}
+
+.figure-halfcircle {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border: 1px solid transparent;
+
+	/*     border-top-left-radius: 80%;
+    border-top-color: var(--color-secondary);
+    border-left-color: var(--color-secondary); */
+}
+
+.figure-circle {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.figure-circlemorecircle {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.figure-circlestwo {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.figure-circleyellow {
+	position: absolute;
+	left: 35%;
+	bottom: 0;
+}
+
+.figure-circlemoreline {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.figure-elehalfcircle {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.circleyellow-pos2 {
+	left: 60%;
+}
+
+.circlemoreline-pos2 {
+	top: 0;
+	left: 0;
+}
+
+.figure-browncircle {
+	z-index: 1;
+
+	position: absolute;
+	bottom: -3.4rem;
+	right: -5rem;
+}
+
+.figure-browncircle img {
+	height: 650px;
+	width: 650px;
+}
+
+.figure-browncircle2 {
+	display: none;
+}
+
+.figure-browncircle2 img {
+	position: absolute;
+	height: 550px;
+	bottom: 9rem;
+	right: -4.7rem;
+}
+
+.figure-anotheryellow {
+	position: absolute;
+	right: -4rem;
+	top: -10rem;
+}
+
+.figure-elehalfcircleyellow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: rotate(180deg);
+}
+
+.logo-contact {
+	display: flex;
+	height: 300px;
+	width: 400px;
+}
+
+@media screen and (max-width: 1250px) {
+	.container-header,
+	.container-presentacion,
+	.container-scientific,
+	.container-text,
+	.container-servicios-oneTime,
+	.container-servicios-continuos,
+	.container-contacto {
+		padding-left: 4rem;
+		padding-right: 4rem;
+
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.figure-circlemorecircle {
+		bottom: -2rem;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.non-medium {
+		display: none;
+	}
+
+	.title-scientific {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 867px) and (min-width: 768px) {
+	.title-scientific {
+		font-size: 3.18rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.title-scientific {
+		font-size: 2.7rem;
+	}
+
+	.container-header,
+	.container-presentacion,
+	.container-scientific,
+	.container-text,
+	.container-servicios-oneTime,
+	.container-servicios-continuos,
+	.container-contacto {
+		height: 100%;
+	}
+
+	.container-contacto {
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.figure-browncircle {
+		display: none;
+	}
+
+	.figure-browncircle2 {
+		display: inherit;
+	}
+
+	.title-scientific {
+		position: initial;
+		padding-bottom: 2rem;
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.container-text h1 {
+		font-size: 2.5rem; /* 40px en em */
+		line-height: 1.5em; /* 43.52px en em */
+	}
+
+	/* new  */
+	.non-mobile {
+		display: none;
+	}
+
+	.title-scientific {
+		text-align: center;
+	}
+
+	.figure-elehalfcircle {
+		right: -40px;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.logo-contact {
+		display: flex;
+		height: 200px;
+		width: 250px;
+	}
+
+	.container-contacto .box-contacto .card-contacto {
+		padding: 0;
+	}
+
+	.contacto-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info-contacto {
+		text-align: center;
+	}
+
+	.info-contacto h4 {
+		line-height: 1.4;
+	}
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 576px) {
+	.container-text h1 {
+		font-size: 2rem; /* 32px en em */
+	}
+}

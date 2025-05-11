@@ -1,0 +1,35 @@
+.navbar {
+	background: #ffbe00;
+	height: 20vh;
+}
+
+.nav-link {
+	color: #000000;
+	font-weight: 400;
+	font-size: 25px;
+	text-align: center;
+	line-height: 27.2px;
+}
+
+.nav-link:hover {
+	color: var(--color-primary);
+	font-weight: 400;
+}
+
+.row-nav-container {
+	width: 100%;
+}
+
+.row-nav-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-language a {
+	font-weight: 800;
+}
+
+.language-content:hover {
+	font-weight: 800;
+}
