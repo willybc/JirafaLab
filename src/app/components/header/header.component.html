@@ -7,20 +7,18 @@
 						<div class="col-md-10">
 							<ul class="navbar-nav row-nav-content">
 								
-								<li class="nav-item">
-									<a class="nav-link" href="#nosotros"
-										>Nosotros</a
-									>
+								<li class="nav-item" (click)="navigateToSection('app-portada')">
+									Home
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#servicios"
-										>Servicios</a
-									>
+
+								<li class="nav-item" (click)="navigateToSection('app-portada')">
+									Nosotros
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#contactenos"
-										>Contáctenos</a
-									>
+								<li class="nav-item" (click)="navigateToSection('app-servicios-one-time')">
+									Servicios
+								</li>
+								<li class="nav-item" (click)="navigateToSection('app-contacto')">
+									Contáctenos
 								</li>
 
 							</ul>
