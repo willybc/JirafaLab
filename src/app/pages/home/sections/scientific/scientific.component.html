@@ -1,13 +1,19 @@
 <section class="container-scientific">
 	<div class="box-scientific">
-		<div class="title-scientific title-box">
+		<!-- Aplicar animación al título -->
+		<div class="title-scientific title-box"
+             #animatableTitle
+             [@animateTitle]="getTitleAnimationState(animatableTitle)">
 			<h1>Scientific Advertising</h1>
 		</div>
 
 		<div class="box-scientific">
 			<div class="logos">
 				<div class="row">
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 1 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/1.svg" alt="avatar" />
 						</div>
@@ -17,7 +23,10 @@
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 2 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/2.svg" alt="avatar" />
 						</div>
@@ -31,7 +40,10 @@
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 3 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/3.svg" alt="avatar" />
 						</div>
@@ -44,7 +56,10 @@
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 4 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/4.svg" alt="avatar" />
 						</div>
@@ -57,7 +72,10 @@
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 5 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/5.svg" alt="avatar" />
 						</div>
@@ -70,11 +88,13 @@
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-4 col-sm-6 logo hidden">
+					<!-- Card 6 -->
+					<div class="col-lg-2 col-md-4 col-sm-6 logo"
+                         #animatableCard
+                         >
 						<div class="img-scientific">
 							<img src="/assets/6.svg" alt="avatar" />
 						</div>
-
 						<div class="content-scientific">
 							<h3>Control y Optimización</h3>
 							<h4>

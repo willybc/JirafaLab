@@ -1,6 +1,9 @@
 <section class="container-servicios-oneTime" id="servicios">
 	<div class="box-servicios">
-		<div class="title-scientific title-box">
+		<div
+			class="title-scientific title-box"
+			#animatableTitle
+			[@animateTitle]="getTitleAnimationState(animatableTitle)">
 			<h1>Servicios One-time</h1>
 		</div>
 		<div class="container-cards box-scientific">
