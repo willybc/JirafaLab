@@ -61,3 +61,21 @@
 	}
 
 }
+
+@media(max-width: 580px) {
+	.container-presentacion {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.figure-browncircle2 img {
+		height: 460px;
+	}
+}
+
+@media(max-width: 416px) {
+	.container-presentacion {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
