@@ -1,0 +1,63 @@
+.container-presentacion {
+    justify-content: center;
+}
+
+.presentacion {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+    gap: 42px;
+
+    margin-bottom: 3rem;
+
+	z-index: 3;
+}
+
+.presentacion h1 {
+	font-weight: 700;
+	font-size: 12.5rem;
+}
+
+.presentacion h2 {
+	font-weight: 300;
+	font-size: 3.75rem;
+	line-height: 2.72rem;
+}
+
+@media (max-width: 1500px) {
+	.presentacion h1 {
+		font-size: 11.5rem;
+	}
+
+	.presentacion h2 {
+		font-size: 3.2rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.presentacion h1 {
+		font-size: 9.5rem;
+	}
+
+	.presentacion h2 {
+		font-size: 2.8rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	.presentacion h1 {
+		font-size: 7.5rem;
+	}
+
+	.presentacion h2 {
+		font-size: 2.5rem;
+	}
+}
+
+@media(max-width: 751px) {
+	.presentacion h1 {
+		line-height: 6rem;
+	}
+
+}
