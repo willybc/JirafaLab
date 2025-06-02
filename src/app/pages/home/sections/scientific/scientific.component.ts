@@ -18,11 +18,12 @@ import {
 	animate,
 	transition,
 } from '@angular/animations';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
 	selector: 'app-scientific',
 	standalone: true,
-	imports: [CommonModule],
+	imports: [CommonModule, TranslateModule],
 	templateUrl: './scientific.component.html',
 	styleUrls: ['./scientific.component.scss'],
 	animations: [

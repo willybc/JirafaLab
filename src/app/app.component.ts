@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { TranslationService } from './services/core/translation.service';
 
 @Component({
 	selector: 'app-root',
@@ -10,4 +11,6 @@ import { HeaderComponent } from './components/header/header.component';
 })
 export class AppComponent {
 	title = 'jirafa-lab';
+
+	constructor(private translationService: TranslationService) {}
 }

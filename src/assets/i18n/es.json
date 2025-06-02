@@ -1,0 +1,71 @@
+{
+	"HEADER": {
+		"LANGUAGE_ES": "ES",
+		"LANGUAGE_EN": "EN",
+		"NAV_HOME": "Inicio",
+		"NAV_ABOUT_US": "Nosotros",
+		"NAV_SERVICES": "Servicios",
+		"NAV_CONTACT_US": "Contáctanos"
+	},
+	"PORTADA": {
+		"TITLE": "Jirafa Lab",
+		"SUBTITLE": "otro punto de vista"
+	},
+	"SCIENTIFIC": {
+		"MAIN_TITLE": "Publicidad Científica",
+		"CARD_1_TITLE": "Reunión",
+		"CARD_1_DESC": "Inicio",
+		"CARD_2_TITLE": "Investigación",
+		"CARD_2_DESC_1": "Recopilación de Información",
+		"CARD_2_DESC_2": "Benchmark",
+		"CARD_2_DESC_3": "Contexto",
+		"CARD_3_TITLE": "Hipótesis",
+		"CARD_3_DESC_1": "Pregunta / Futuro",
+		"CARD_3_DESC_2": "Análisis",
+		"CARD_4_TITLE": "Planificación Estratégica",
+		"CARD_4_DESC_1": "Presupuestos",
+		"CARD_4_DESC_2": "Medios / Objetivos",
+		"CARD_5_TITLE": "Desarrollo de Estrategia",
+		"CARD_5_DESC_1": "Plan",
+		"CARD_5_DESC_2": "Ejecución",
+		"CARD_6_TITLE": "Control y Optimización",
+		"CARD_6_DESC_1": "Efectividad",
+		"CARD_6_DESC_2": "Evaluación",
+		"CARD_6_DESC_3": "Análisis"
+	},
+	"TEXT_COMPONENT": {
+		"QUOTE": "“La Publicidad Científica es la forma más efectiva de publicitar, donde la planificación estratégica se formula y ejecuta basada en datos” <br /> <br /> Claude Hopkins"
+	},
+	"SERVICIOS_ONETIME": {
+		"MAIN_TITLE": "Servicios Puntuales",
+		"CARD_IDENTIDAD_PRIMARY": "Identidad",
+		"CARD_IDENTIDAD_SECONDARY": "Logo + Manual de Marca",
+		"CARD_BRANDING_PRIMARY": "Branding",
+		"CARD_BRANDING_SECONDARY": "Aplicación en diferentes soportes",
+		"CARD_PAPELERIA_PRIMARY": "Papelería",
+		"CARD_PAPELERIA_SECONDARY": "Brochure & Flyers",
+		"CARD_DESIGN_ONDEMAND_PRIMARY": "Diseño <br />On-Demand",
+		"CARD_DESIGN_ONDEMAND_SECONDARY": "Servicio de diseño",
+		"CARD_FOTOGRAFIA_PRIMARY": "Fotografía",
+		"CARD_FOTOGRAFIA_SECONDARY": "Servicio de fotografía",
+		"CARD_VIDEO_PRIMARY": "Video",
+		"CARD_VIDEO_SECONDARY": "Servicio de grabación y edición",
+		"CARD_REDACCION_PRIMARY": "Redacción Publicitaria",
+		"CARD_REDACCION_PRIMARY_DESC_1": "Servicio de redacción de",
+		"CARD_REDACCION_PRIMARY_DESC_2": "blogs, sitios web, etc",
+		"CARD_PROGRAMACION_PRIMARY": "Programación",
+		"CARD_PROGRAMACION_SECONDARY": "Landing Pages y Websites"
+	},
+	"SERVICIOS_CONTINUOS": {
+		"MAIN_TITLE": "Servicios Continuos",
+		"CARD_ESTRATEGIA_PRIMARY": "Estrategia de Contenido",
+		"CARD_ESTRATEGIA_SECONDARY": "Logo + Manual de Marca",
+		"CARD_SOCIAL_ADS_PRIMARY": "Anuncios en Redes Sociales",
+		"CARD_SOCIAL_ADS_SECONDARY": "Facebook + Instagram",
+		"CARD_PARRILLA_PRIMARY": "Parrilla para Redes Sociales",
+		"CARD_PARRILLA_SECONDARY": "FB + LN + IG + TK"
+	},
+	"CONTACTO": {
+		"MORE-INFO": "Más Información"
+	}
+}

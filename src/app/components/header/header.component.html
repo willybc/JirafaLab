@@ -8,17 +8,17 @@
 							<ul class="navbar-nav row-nav-content">
 								
 								<li class="nav-item" (click)="navigateToSection('app-portada')">
-									home
+									{{ 'HEADER.NAV_HOME' | translate }}
 								</li>
 
 								<li class="nav-item" (click)="navigateToSection('app-portada')">
-									nosotros
+									{{ 'HEADER.NAV_ABOUT_US' | translate }}
 								</li>
 								<li class="nav-item" (click)="navigateToSection('app-servicios-one-time')">
-									servicios
+									{{ 'HEADER.NAV_SERVICES' | translate }}
 								</li>
 								<li class="nav-item" (click)="navigateToSection('app-contacto')">
-									contáctenos
+									{{ 'HEADER.NAV_CONTACT_US' | translate }}
 								</li>
 
 							</ul>
@@ -30,7 +30,7 @@
 					<ul
 						class="navbar-nav me-auto mb-2 mb-lg-0 container-language">
 						<li class="nav-item">
-							<a href="#" class="nav-link language-content">ES</a>
+							<a (click)="changeLanguage('es')" class="nav-link language-content" [class.active-lang]="getCurrentLang() === 'es'">{{ 'HEADER.LANGUAGE_ES' | translate }}</a>
 						</li>
 
 						<li class="nav-item">
@@ -38,7 +38,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="#" class="nav-link language-content">EN</a>
+							<a (click)="changeLanguage('en')" class="nav-link language-content" [class.active-lang]="getCurrentLang() === 'en'">{{ 'HEADER.LANGUAGE_EN' | translate }}</a>
 						</li>
 					</ul>
 				</div>

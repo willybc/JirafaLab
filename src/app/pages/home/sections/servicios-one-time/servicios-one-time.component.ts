@@ -9,6 +9,7 @@ import {
 	HostListener,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import {
 	trigger,
 	state,
@@ -17,10 +18,11 @@ import {
 	transition,
 } from '@angular/animations';
 
+
 @Component({
 	selector: 'app-servicios-one-time',
 	standalone: true,
-	imports: [CommonModule],
+	imports: [CommonModule, TranslateModule],
 	templateUrl: './servicios-one-time.component.html',
 	styleUrl: './servicios-one-time.component.scss',
 	animations: [

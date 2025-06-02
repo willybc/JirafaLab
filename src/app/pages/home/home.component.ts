@@ -16,10 +16,10 @@ interface SectionItem {
 
 const desktopItemsConfig: SectionItem[] = [
 	{ componentKey: 'app-portada' },
-	{ componentKey: 'app-scientific' },
-	{ componentKey: 'app-text' },
 	{ componentKey: 'app-servicios-one-time' },
 	{ componentKey: 'app-servicios-continuos' },
+	{ componentKey: 'app-scientific' },
+	{ componentKey: 'app-text' },
 	{ componentKey: 'app-contacto' },
 ];
 
@@ -35,10 +35,10 @@ export class HomeComponent implements OnInit {
 
 	componentMap: Record<string, Type<any>> = {
 		'app-portada': PortadaComponent,
-		'app-scientific': ScientificComponent,
-		'app-text': TextComponent,
 		'app-servicios-one-time': ServiciosOneTimeComponent,
 		'app-servicios-continuos': ServiciosContinuosComponent,
+		'app-scientific': ScientificComponent,
+		'app-text': TextComponent,
 		'app-contacto': ContactoComponent,
 	};
 

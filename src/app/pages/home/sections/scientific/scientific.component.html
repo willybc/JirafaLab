@@ -4,7 +4,7 @@
 		<div class="title-scientific title-box"
              #animatableTitle
              [@animateTitle]="getTitleAnimationState(animatableTitle)">
-			<h1>Scientific Advertising</h1>
+			<h1>{{ 'SCIENTIFIC.MAIN_TITLE' | translate }}</h1>
 		</div>
 
 		<div class="box-scientific">
@@ -18,8 +18,8 @@
 							<img src="/assets/1.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Reunión</h3>
-							<h4>Kickoff</h4>
+							<h3>{{ 'SCIENTIFIC.CARD_1_TITLE' | translate }}</h3>
+							<h4 [innerHTML]="'SCIENTIFIC.CARD_1_DESC' | translate"></h4>
 						</div>
 					</div>
 
@@ -31,11 +31,11 @@
 							<img src="/assets/2.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Investigación</h3>
+							<h3>{{ 'SCIENTIFIC.CARD_2_TITLE' | translate }}</h3>
 							<h4>
-								Recolección de info <br />
-								/ Benchmark / <br />
-								Contexto
+								{{ 'SCIENTIFIC.CARD_2_DESC_1' | translate }}<br />
+								/ {{ 'SCIENTIFIC.CARD_2_DESC_2' | translate }} / <br />
+								{{ 'SCIENTIFIC.CARD_2_DESC_3' | translate }}
 							</h4>
 						</div>
 					</div>
@@ -48,10 +48,10 @@
 							<img src="/assets/3.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Hipótesis</h3>
+							<h3>{{ 'SCIENTIFIC.CARD_3_TITLE' | translate }}</h3>
 							<h4>
-								Pregunta / Análisis <br />
-								a futuro <br />
+								{{ 'SCIENTIFIC.CARD_3_DESC_1' | translate }}<br />
+								{{ 'SCIENTIFIC.CARD_3_DESC_2' | translate }}<br /> <br />
 							</h4>
 						</div>
 					</div>
@@ -64,10 +64,10 @@
 							<img src="/assets/4.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Planteamiento de la estrategia</h3>
+							<h3>{{ 'SCIENTIFIC.CARD_4_TITLE' | translate }}</h3>
 							<h4>
-								Presupuestos / <br />
-								Medios / Objetos <br />
+								{{ 'SCIENTIFIC.CARD_4_DESC_1' | translate }} / <br />
+								{{ 'SCIENTIFIC.CARD_4_DESC_2' | translate }} <br />
 							</h4>
 						</div>
 					</div>
@@ -80,10 +80,10 @@
 							<img src="/assets/5.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Desarrollo de la estrategia</h3>
+							<h3>{{ 'SCIENTIFIC.CARD_5_TITLE' | translate }}</h3>
 							<h4>
-								Realización <br />
-								del plan <br />
+								{{ 'SCIENTIFIC.CARD_5_DESC_1' | translate }} <br />
+								{{ 'SCIENTIFIC.CARD_5_DESC_2' | translate }} <br />
 							</h4>
 						</div>
 					</div>
@@ -96,11 +96,11 @@
 							<img src="/assets/6.svg" alt="avatar" />
 						</div>
 						<div class="content-scientific">
-							<h3>Control y Optimización</h3>
+							<h3>{{ 'SCIENTIFIC.CARD_6_TITLE' | translate }}</h3>
 							<h4>
-								Evaluación <br />
-								de efectividad / <br />
-								Análisis
+								{{ 'SCIENTIFIC.CARD_6_DESC_1' | translate }} <br />
+								{{ 'SCIENTIFIC.CARD_6_DESC_2' | translate }} <br />
+								{{ 'SCIENTIFIC.CARD_6_DESC_3' | translate }}
 							</h4>
 						</div>
 					</div>

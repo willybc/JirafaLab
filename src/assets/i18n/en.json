@@ -1,0 +1,71 @@
+{
+	"HEADER": {
+		"LANGUAGE_ES": "ES",
+		"LANGUAGE_EN": "EN",
+		"NAV_HOME": "Home",
+		"NAV_ABOUT_US": "About Us",
+		"NAV_SERVICES": "Services",
+		"NAV_CONTACT_US": "Contact Us"
+	},
+	"PORTADA": {
+		"TITLE": "Jirafa Lab",
+		"SUBTITLE": "another point of view"
+	},
+	"SCIENTIFIC": {
+		"MAIN_TITLE": "Scientific Advertising",
+		"CARD_1_TITLE": "Meeting",
+		"CARD_1_DESC": "Kickoff",
+		"CARD_2_TITLE": "Research",
+		"CARD_2_DESC_1": "Info Gathering",
+		"CARD_2_DESC_2": "Benchmark",
+		"CARD_2_DESC_3": "Context",
+		"CARD_3_TITLE": "Hypothesis",
+		"CARD_3_DESC_1": "Question / Future",
+		"CARD_3_DESC_2": "Analysis",
+		"CARD_4_TITLE": "Strategy Planning",
+		"CARD_4_DESC_1": "Budgets",
+		"CARD_4_DESC_2": "Media / Objectives",
+		"CARD_5_TITLE": "Strategy Development",
+		"CARD_5_DESC_1": "Plan",
+		"CARD_5_DESC_2": "Execution",
+		"CARD_6_TITLE": "Control and Optimization",
+		"CARD_6_DESC_1": "Effectiveness",
+		"CARD_6_DESC_2": "Evaluation",
+		"CARD_6_DESC_3": "Analysis"
+	},
+	"TEXT_COMPONENT": {
+		"QUOTE": "“Scientific Advertising is the most effective way to advertise, where strategic planning is formulated and executed based on data” <br /> <br /> Claude Hopkings"
+	},
+	"SERVICIOS_ONETIME": {
+		"MAIN_TITLE": "One-Time Services",
+		"CARD_IDENTIDAD_PRIMARY": "Identity",
+		"CARD_IDENTIDAD_SECONDARY": "Logo + BrandBook",
+		"CARD_BRANDING_PRIMARY": "Branding",
+		"CARD_BRANDING_SECONDARY": "Application in different media",
+		"CARD_PAPELERIA_PRIMARY": "Stationery",
+		"CARD_PAPELERIA_SECONDARY": "Brochure & Flyers",
+		"CARD_DESIGN_ONDEMAND_PRIMARY": "On-Demand <br />Design",
+		"CARD_DESIGN_ONDEMAND_SECONDARY": "Design service",
+		"CARD_FOTOGRAFIA_PRIMARY": "Photography",
+		"CARD_FOTOGRAFIA_SECONDARY": "Photography service",
+		"CARD_VIDEO_PRIMARY": "Video",
+		"CARD_VIDEO_SECONDARY": "Recording and editing service",
+		"CARD_REDACCION_PRIMARY": "Copywriting",
+		"CARD_REDACCION_PRIMARY_DESC_1": "Copywriting service for",
+		"CARD_REDACCION_PRIMARY_DESC_2": "blogs, websites, etc.",
+		"CARD_PROGRAMACION_PRIMARY": "Programming",
+		"CARD_PROGRAMACION_SECONDARY": "Landing Pages & Websites"
+	},
+	"SERVICIOS_CONTINUOS": {
+		"MAIN_TITLE": "Continuous Services",
+		"CARD_ESTRATEGIA_PRIMARY": "Content Strategy",
+		"CARD_ESTRATEGIA_SECONDARY": "Logo + BrandBook",
+		"CARD_SOCIAL_ADS_PRIMARY": "Social Ads",
+		"CARD_SOCIAL_ADS_SECONDARY": "Facebook + Instagram",
+		"CARD_PARRILLA_PRIMARY": "Social Media Grid",
+		"CARD_PARRILLA_SECONDARY": "FB + LN + IG + TK"
+	},
+	"CONTACTO": {
+		"MORE-INFO": "More Information"
+	}
+}

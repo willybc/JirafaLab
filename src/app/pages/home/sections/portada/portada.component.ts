@@ -7,10 +7,12 @@ import {
 	transition,
 } from '@angular/animations';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
 	selector: 'app-portada',
-	imports: [CommonModule],
+	standalone: true,
+	imports: [CommonModule, TranslateModule],
 	templateUrl: './portada.component.html',
 	styleUrl: './portada.component.scss',
 	animations: [
